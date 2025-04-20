@@ -1,0 +1,9 @@
+{
+	"name": "estudos-igor-databricks-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ca9b9f22-c475-4a7f-a1c2-0fd8b100e02b",
+		"tenantId": "c12f572e-ee4b-4ce9-91ac-d94a1dc109d8"
+	}
+}
