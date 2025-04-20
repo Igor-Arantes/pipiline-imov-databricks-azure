@@ -1,0 +1,25 @@
+{
+	"name": "pipiline-imov-trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "datalake-ingestion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2025-04-20T18:59:00Z",
+				"endTime": "2025-04-21T18:53:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
